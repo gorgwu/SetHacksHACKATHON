@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+background-image: url(https://www.perofamilyfarms.com/wp-content/uploads/2018/07/light-green-background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 1380px;
+}
+
+hr {
+  border: none;
+  background-color: black;
+  height: 10px;
+}
+
+.whatvr table td{
+    padding: 50px;
+    font-size: 20px;
+    line-height: 4em;
+  }
+
+.whatvr h1 {
+  color: white;
+  font-size: 70px;
+  text-shadow: 4px 4px 0px black;
+}
+
+.whatvr p {
+  font-size: 17px;
+  line-height: 1.5em;
+}
+
+.whatvr h2 {
+  color: white;
+}
+
+.info p {
+  font-size: 17px;
+  color: black;
+  line-height: 1.5em;
+
+}
+.info table td{
+  padding: 10px;
+  font-size: 20px;
+  line-height: 4em;
+}
+
+ table p {
+  color: black;
+ }
+.info {
+  background-color: white;
+}
+
+/*Nav bar and drop down css*/
+
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: darkgreen;
+  }
+  
+  nav{
+    background: #171c24;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding: 0 100px 0 0;
+    position: absolute;
+  }
+  
+  nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+  
+  }
+  
+  nav .nav-items li{
+    list-style: none;
+    padding: 0 15px;
+  }
+  
+  nav .nav-items li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+  
+  nav .nav-items li a:hover{
+    color: darkgreen;
+  }
+
+  @media (max-width: 1245px) {
+    nav{
+      padding: 0 50px;
+    }
+  }
+  
+  @media (max-width: 1140px){
+    nav{
+      padding: 0px;
+    }
+  }
+
+  .phone {
+    height: 800px;
+    
+
+  }
