@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: url(https://th.bing.com/th/id/R.ec3da4a08121f51659b6ef2f462a9e2c?rik=B6MRfmWE3bAweQ&riu=http%3a%2f%2fgetdrawings.com%2fvectors%2fforest-vector-9.jpg&ehk=8QJzJteQv9CyUMVIQIlgMtpZxmLxNsPl4w6cr6V8ksA%3d&risl=&pid=ImgRaw&r=0) ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 3000px 2000px;
+  background-position: top;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+}
+
+table {
+  width: 80;
+  position: 80;
+}
+
+td {
+  border: none;
+ text-align: center;
+ padding: 10px 10px 10px 10px;
+
+}
+
+h1 {
+  color: darkgreen;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 3px 3px 0px white;
+}
+
+hr {
+  size: 200%;
+}
+
+h3 {
+	text-shadow: 2px 2px 0px black;
+}
+
+
+
+
+/*Nav bar and drop down css*/
+
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #0DBFEA;
+  }
+  
+  nav{
+    background: #171c24;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding: 0px 100px 0px 0px;
+    position: absolute;
+  }
+  
+  nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+  
+  }
+  
+  nav .nav-items li{
+    list-style: none;
+    padding: 0 15px;
+  }
+  
+  nav .nav-items li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+  
+  nav .nav-items li a:hover{
+    color: darkgreen;
+  }
+
+  @media (max-width: 1245px) {
+    nav{
+      padding: 0 50px;
+    }
+  }
+  
+  @media (max-width: 1140px){
+    nav{
+      padding: 0px;
+    }
+  }
+
+  /*Body content*/
+
+  #example1 {
+    border: none;
+    padding: 25px;
+    background-image: url(https://www.sciencenews.org/wp-content/uploads/2021/07/070321_CG_trees_feat.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1200px;
+  }
+  
+   #example2 {
+    border: none;
+    padding: 25px;
+    background-image: url(https://srcnaut.com/cdn-cgi/image/f=auto,fit=crop,g=0.5x0.5,w=2000,h=1125,q=90,d=1/upload/20/08/bc/shutterstock-493168426.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+  }
+  
+  .unknown {
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+  }
+
+
+/*Button code*/
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button1:hover {
+    padding: 32px 64px;
+    border: 2px solid white;
+    background-color: #555555;
+    color: white;
+  }
+
+
+
+//Contact page only
+input[type=text] {
+  width:50%;
+  padding:3px;
+}
+input[type=text]:focus {
+  width:80%;
+  
+  background-color:palegreen;
+  transition:0.7s;
+}
+
+textarea {
+  width: 175px;
+  height:100px;
+}
+textarea:focus {
+  background-color:palegreen;
+  transition:0.7s;
+}
