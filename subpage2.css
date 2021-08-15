@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: url(https://th.bing.com/th/id/R.ec3da4a08121f51659b6ef2f462a9e2c?rik=B6MRfmWE3bAweQ&riu=http%3a%2f%2fgetdrawings.com%2fvectors%2fforest-vector-9.jpg&ehk=8QJzJteQv9CyUMVIQIlgMtpZxmLxNsPl4w6cr6V8ksA%3d&risl=&pid=ImgRaw&r=0) ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 3000px 2000px;
+  background-position: top;
+}
+
+.form table {
+  border-spacing: 5px;
+}
+textarea {
+  width: 100%;
+  padding: 4px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+textarea:focus {
+  border: 3px solid #555;
+}
+input[type=text] {
+  width: 100%;
+  padding: 4px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+/*Nav bar and drop down css*/
+
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #0DBFEA;
+  }
+  
+  nav{
+    background: #171c24;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding: 0px 100px 0px 0px;
+    position: absolute;
+  }
+  
+  nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+  
+  }
+  
+  nav .nav-items li{
+    list-style: none;
+    padding: 0 15px;
+  }
+  
+  nav .nav-items li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+  
+  nav .nav-items li a:hover{
+    color: darkgreen;
+  }
+
+  @media (max-width: 1245px) {
+    nav{
+      padding: 0 50px;
+    }
+  }
+  
+  @media (max-width: 1140px){
+    nav{
+      padding: 0px;
+    }
+  }
+
+textarea {
+  height: 100px;
+}
+
+  /*Button code*/
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button1:hover {
+    padding: 24px 48px;
+    border: 2px solid white;
+    background-color: #555555;
+    color: white;
+  }
